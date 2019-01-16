@@ -59,4 +59,5 @@ end
 def merge_data(keys,data)
   data[0].map do |name, prop|
     new_prop = {}
+    keys.
 end
