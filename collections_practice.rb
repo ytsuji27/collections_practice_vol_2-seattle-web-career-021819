@@ -60,5 +60,6 @@ def merge_data(keys,data)
   data[0].map do |name, prop|
     new_prop = {}
     keys.each do |new_attr|
-      if new_attr[:first_name]
+      if new_attr[:first_name] == name
+        
 end
