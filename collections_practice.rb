@@ -57,5 +57,7 @@ end
     
     
 def merge_data(keys,data)
+  keys
+  data
   data[0]
 end
