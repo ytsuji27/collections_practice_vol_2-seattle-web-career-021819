@@ -61,5 +61,5 @@ def merge_data(keys,data)
     new_prop = {}
     keys.each do |new_attr|
       if new_attr[:first_name] == name
-        
+        new_prop = prop.merge
 end
