@@ -62,5 +62,10 @@ def merge_data(keys,data)
     keys.each do |new_attr|
       if new_attr[:first_name] == name
         new_prop = prop.merge(new_attr)
-        
+      end
+    end
+    new_prop
+  end
+end
+
 end
